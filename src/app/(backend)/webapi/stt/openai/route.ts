@@ -3,6 +3,9 @@ import { createOpenaiAudioTranscriptions } from '@lobehub/tts/server';
 
 import { createBizOpenAI } from '@/app/(backend)/_deprecated/createBizOpenAI';
 
+export const runtime = 'nodejs';
+export const maxDuration = 60;
+
 export const preferredRegion = [
   'arn1',
   'bom1',

@@ -6,6 +6,9 @@ import { checkAuth } from '@/app/(backend)/middleware/auth';
 import { initModelRuntimeWithUserPayload } from '@/server/modules/ModelRuntime';
 import { createErrorResponse } from '@/utils/errorResponse';
 
+export const runtime = 'nodejs';
+export const maxDuration = 60;
+
 export const preferredRegion = [
   'arn1',
   'bom1',
